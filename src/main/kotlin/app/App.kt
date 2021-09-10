@@ -1,10 +1,11 @@
-package chess
+package app
 
 class App {
 	companion object {
 		@JvmStatic
 		fun main(args: Array<String>) {
-			println("Hello!")
+			val board = Board(5, 5)
+			println(board.hIndicator)
 		}
 	}
 }
